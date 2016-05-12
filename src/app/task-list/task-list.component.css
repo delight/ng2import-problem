@@ -1,0 +1,8 @@
+li.task span {
+    border: 1px solid transparent;
+    border-radius: 50%;
+}
+
+.selected {
+    border-color: red !important;
+}

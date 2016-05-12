@@ -1,0 +1,6 @@
+<p>
+  task-list works!
+</p>
+<ul class="tasks">
+  <li class="task" *ngFor="let task of tasks" (click)=onClick(task)><span [ngClass]="{selected: task.selected}">{{task.id}}</span>{{task.name}}</li>
+</ul>
